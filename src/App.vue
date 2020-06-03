@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import youtube from './apis/youtubeapi';
+import youtube from './apis/youtubeapi'
 import SearchBar from './components/SearchBar'
 import VideoList from './components/VideoList'
 
@@ -16,7 +16,7 @@ export default {
  name: 'App',
  components: {
    SearchBar,
-   VideoList
+   VideoList,
  },
  data(){
    return { videos: [] }
